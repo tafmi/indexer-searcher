@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package indexer;
 
 import java.io.File;
@@ -13,10 +9,6 @@ import org.apache.log4j.Logger;
 import org.apache.tika.exception.TikaException;
 import org.xml.sax.SAXException;
 
-/**
- *
- * @author Teo
- */
 public class Indexer {
 
     /**
@@ -26,7 +18,7 @@ public class Indexer {
      * @throws org.apache.tika.exception.TikaException
      */
     public static void main(String[] args) throws IOException, SAXException, TikaException {
-        // TODO code application logic here
+
          try{
             if(args.length!=2){
                 throw new InvalidArgumentException();
