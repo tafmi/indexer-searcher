@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package searcher;
 
 import java.io.File;
@@ -10,10 +6,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import org.apache.lucene.queryparser.classic.ParseException;
 
-/**
- *
- * @author Teo
- */
 public class Searcher {
 
     /**
@@ -21,7 +13,7 @@ public class Searcher {
      * @throws org.apache.lucene.queryparser.classic.ParseException
      */
     public static void main(String[] args) throws ParseException {
-        // TODO code application logic here
+
          try{
             if(args.length!=2){
                 throw new InvalidArgumentException();
